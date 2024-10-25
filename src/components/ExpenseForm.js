@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-//import axios from 'axios';
 
 const ExpenseForm = ({ fetchExpenses, editingExpense, onSubmit }) => {
     const [formData, setFormData] = useState({ name: '', amount: '', category: '', date: '' });
